@@ -18,7 +18,7 @@ rm -rf frameworks/base
 # Clone repositories
 git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19 --depth=1 -b lineage-21 device/oneplus/fajita
 git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common_4.19_los --depth=1 -b cosmic_sdm845 device/oneplus/sdm845-common
-git clone https://github.com/EdwinMoq/android_kernel_oneplus_sdm845 --depth=1 kernel/oneplus/sdm845
+git clone https://github.com/zamasu0/Dynamic_kernel_4.19_oneplus_sdm845 --depth=1 kernel/oneplus/sdm845
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 vendor/oneplus/fajita
 git clone https://github.com/zamasu0/proprietary_vendor_oneplus_sdm845-common_4.19 --depth=1 vendor/oneplus/sdm845-common
 git clone https://github.com/LineageOS/android_hardware_oneplus --depth=1 hardware/oneplus
