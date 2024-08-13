@@ -14,6 +14,9 @@ rm -rf hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sdm845/display
 rm -rf frameworks/native
 rm -rf frameworks/base
+rm -rf external/libhybris
+rm -rf vendor/lindroid
+rm -rf external/lxc
 
 # Clone repositories
 git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19 --depth=1 -b lineage-21 device/oneplus/fajita
