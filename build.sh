@@ -39,7 +39,6 @@ git clone https://github.com/zamasu0/android_frameworks_base --depth=1 framework
 git clone https://github.com/zamasu0/android_build --depth=1 build/make
 
 # build-setup
-export LINEAGE_BUILD=true
 source build/envsetup.sh
-lunch lineage_fajita-ap2a-eng
+lunch lineage_fajita-ap2a-userdebug
 m bacon
