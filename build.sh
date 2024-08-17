@@ -21,7 +21,7 @@ rm -rf build/make
 
 # Clone repositories
 git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19 --depth=1 -b lineage-21 device/oneplus/fajita
-git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common_4.19_los --depth=1 -b DYC device/oneplus/sdm845-common
+git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common_4.19_los --depth=1 -b pxl device/oneplus/sdm845-common
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 vendor/oneplus/fajita
 git clone https://github.com/zamasu0/proprietary_vendor_oneplus_sdm845-common_4.19 --depth=1 vendor/oneplus/sdm845-common
