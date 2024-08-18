@@ -36,7 +36,7 @@ git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b staging/lindr
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/zamasu0/android_frameworks_native --depth=1 frameworks/native
 git clone https://github.com/zamasu0/android_frameworks_base --depth=1 frameworks/base
-git clone https://github.com/zamasu0/android_build --depth=1 build
+git clone https://github.com/zamasu0/build_android --depth=1 build
 
 # build-setup
 source build/envsetup.sh
