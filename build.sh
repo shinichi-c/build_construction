@@ -1,5 +1,9 @@
 #!/bin/bash
 
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
+# Sync the repositories
+/opt/crave/resync.sh
+
 # Remove existing directories
 rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
@@ -17,7 +21,6 @@ rm -rf frameworks/base
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
-rm -rf vendor/gms/proprietary-files.txt
 
 # Clone repositories
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
@@ -36,8 +39,7 @@ git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common --dept
 git clone https://github.com/zamasu0/frameworks_native --depth=1 frameworks/native
 git clone https://github.com/zamasu0/frameworks_base --depth=1 frameworks/base
 git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware/oneplus
-git clone https://github.com/zamasu0/gms --depth=1 vendor/gms
-chmod +x vendor/gms/proprietary-files.txt
+
 # build-setup
 source build/envsetup.sh
 lunch aosp_fajita-ap2a-userdebug
