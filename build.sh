@@ -40,7 +40,6 @@ git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common --dept
 git clone https://github.com/zamasu0/frameworks_native --depth=1 frameworks/native
 git clone https://github.com/zamasu0/frameworks_base --depth=1 frameworks/base
 git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware/oneplus
-git clone https://github.com/zamasu0/gms --depth=1 vendor/gms/common
 
 # build-setup
 source build/envsetup.sh
