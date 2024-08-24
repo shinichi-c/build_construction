@@ -43,5 +43,6 @@ git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware
 
 # build-setup
 source build/envsetup.sh
+make installclean
 lunch aosp_fajita-ap2a-userdebug
 m bacon
