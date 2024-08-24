@@ -1,6 +1,6 @@
 #!/bin/bash
 
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
+repo init -u https://github.com/Project-PixelStar/manifest -b 14-qpr3 --git-lfs
 # Sync the repositories
 /opt/crave/resync.sh
 
