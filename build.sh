@@ -16,8 +16,6 @@ rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sdm845/media
 rm -rf hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sdm845/display
-rm -rf frameworks/native
-rm -rf frameworks/base
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
@@ -36,8 +34,6 @@ git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b staging/lindr
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19 --depth=1 -b pxl_s device/oneplus/fajita
 git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common --depth=1 -b pxl_s device/oneplus/sdm845-common
-git clone https://github.com/zamasu0/frameworks_native --depth=1 frameworks/native
-git clone https://github.com/zamasu0/frameworks_base --depth=1 frameworks/base
 git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware/oneplus
 
 # build-setup
