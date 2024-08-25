@@ -21,7 +21,6 @@ rm -rf frameworks/base
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
-rm -r vendor/gms/common/common-vendor.mk
 
 # Clone repositories
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
@@ -43,5 +42,5 @@ git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware
 
 # build-setup
 source build/envsetup.sh
-lunch aosp_fajita-ap2a-userdebug
+lunch pixelstar_fajita-ap2a-userdebug
 m bacon
