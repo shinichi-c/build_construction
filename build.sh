@@ -42,7 +42,8 @@ git clone https://github.com/zamasu0/frameworks_base --depth=1 frameworks/base
 git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware/oneplus
 
 # build-setup
-source build/envsetup.sh
 make installclean
+
+source build/envsetup.sh
 lunch aosp_fajita-ap2a-userdebug
 m bacon
