@@ -32,7 +32,7 @@ git clone https://github.com/zamasu0/display.git --depth=1 hardware/qcom-caf/sdm
 git clone https://github.com/Linux-on-droid/vendor_lindroid.git --depth=1 vendor/lindroid
 git clone https://github.com/Linux-on-droid/libhybris.git --depth=1 -b staging/lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc.git --depth=1 external/lxc
-git clone https://github.com/zamasu0/proprietary_vendor_oneplus_fajita_4.19.git --depth=1 -b pxl_s device/oneplus/fajita
+git clone https://github.com/zamasu0/android_device_oneplus_fajita_4.19.git --depth=1 -b pxl_s device/oneplus/fajita
 git clone https://github.com/zamasu0/android_device_oneplus_sdm845-common.git --depth=1 -b pxl_s device/oneplus/sdm845-common
 git clone https://github.com/zamasu0/android_hardware_oneplus.git --depth=1 hardware/oneplus
 
