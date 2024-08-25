@@ -7,7 +7,7 @@ repo init -u https://github.com/Project-PixelStar/manifest -b 14-qpr3 --git-lfs
 # Remove existing directories
 rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
-rm -rf device/lineage/sepolicy
+rm -rf device/pixelstar/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf kernel/oneplus/sdm845
 rm -rf vendor/oneplus/fajita
