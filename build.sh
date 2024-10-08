@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 # Remove existing directories
 rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
