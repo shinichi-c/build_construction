@@ -41,9 +41,6 @@ git clone https://github.com/shinichi-c/frameworks_native_pxl --depth=1 framewor
 git clone https://github.com/shinichi-c/frameworks_base_pxlos --depth=1 frameworks/base
 git clone https://github.com/LineageOS/android_hardware_oneplus --depth=1 hardware/oneplus
 
-# build-setup
-make installclean
-
 source build/envsetup.sh
 lunch aosp_fajita-ap2a-userdebug
 m bacon
