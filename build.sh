@@ -39,7 +39,7 @@ git clone https://github.com/shinichi-c/android_device_oneplus_fajita --depth=1 
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common/tree/pxl_os --depth=1 -b pxl_os device/oneplus/sdm845-common
 git clone https://github.com/zamasu0/frameworks_native --depth=1 frameworks/native
 git clone https://github.com/zamasu0/frameworks_base --depth=1 frameworks/base
-git clone https://github.com/zamasu0/android_hardware_oneplus --depth=1 hardware/oneplus
+git clone https://github.com/LineageOS/android_hardware_oneplus --depth=1 hardware/oneplus
 
 # build-setup
 make installclean
