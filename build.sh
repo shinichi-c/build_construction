@@ -27,7 +27,7 @@ rm -r vendor/gms/common/common-vendor.mk
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 vendor/oneplus/fajita
 git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 vendor/oneplus/sdm845-common
-git clone https://github.com/shinichi-c/android_device_lineage_sepolicy_4.19_los --depth=1 device/lineage/sepolicy
+git clone https://github.com/shinichi-c/device_lineage_sepolicy --depth=1 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 device/qcom/sepolicy_vndr/legacy-um
 git clone https://github.com/shinichi-c/media --depth=1 hardware/qcom-caf/sdm845/media
 git clone https://github.com/shinichi-c/audio --depth=1 hardware/qcom-caf/sdm845/audio
@@ -36,7 +36,7 @@ git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 vendor/lin
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b staging/lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita --depth=1 device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common/tree/pxl_os --depth=1 -b pxl_os device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common --depth=1 -b pxl_os device/oneplus/sdm845-common
 git clone https://github.com/shinichi-c/frameworks_native_pxl --depth=1 frameworks/native
 git clone https://github.com/shinichi-c/frameworks_base_pxlos --depth=1 frameworks/base
 git clone https://github.com/LineageOS/android_hardware_oneplus --depth=1 hardware/oneplus
