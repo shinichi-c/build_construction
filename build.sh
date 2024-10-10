@@ -37,7 +37,7 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita --depth=1 device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common --depth=1 -b pxl_os device/oneplus/sdm845-common
 git clone https://github.com/shinichi-c/frameworks_native_pxl --depth=1 frameworks/native
-git clone https://github.com/shinichi-c/frameworks_base_pxlos --depth=1 frameworks/base
+git clone https://github.com/shinichi-c/frameworks_base --depth=1 frameworks/base
 git clone https://github.com/LineageOS/android_hardware_oneplus --depth=1 hardware/oneplus
 
 source build/envsetup.sh
