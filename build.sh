@@ -21,7 +21,6 @@ rm -rf frameworks/base
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
-rm -r vendor/gms/common/common-vendor.mk
 
 # Clone repositories
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
