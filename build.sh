@@ -1,9 +1,5 @@
 #!/bin/bash
 
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
-# Sync the repositories
-/opt/crave/resync.sh
-
 # Remove existing directories
 rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
