@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
+
 # Remove existing directories
 rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
