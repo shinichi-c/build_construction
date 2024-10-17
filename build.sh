@@ -21,5 +21,5 @@ git clone https://github.com/uwu-gl/device_oneplus_sdm845-common --depth=1 -b fi
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 hardware/oneplus
 
 source build/envsetup.sh
-lunch aosp_fajita-ap2a-userdebug
+lunch yaap_fajita-ap3a-userdebug
 m bacon
