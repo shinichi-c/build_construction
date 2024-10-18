@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Cleanup to fix SyncErrors raised during branch checkouts
+
+rm -rf platform/prebuilts
+rm -rf prebuilts/kernel-build-tools
+rm -rf prebuilts
 rm -rf packages/apps/Calendar
 rm -rf proprietary/product/app/Photos/Photos.apk
 rm -rf proprietary/product/app/PrebuiltGmail/PrebuiltGmail.apk
