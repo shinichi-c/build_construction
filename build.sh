@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf packages/apps/Calendar
+
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
 # Sync the repositories
 /opt/crave/resync.sh
@@ -11,7 +13,6 @@ rm -rf kernel/oneplus/sdm845
 rm -rf vendor/oneplus/fajita
 rm -rf vendor/oneplus/sdm845-common
 rm -rf hardware/oneplus
-rm -rf packages/apps/Calendar
 
 # Clone repositories
 git clone https://github.com/uwu-gl/kernel_oneplus_sdm845 --depth=1 -b fifteen kernel/oneplus/sdm845
