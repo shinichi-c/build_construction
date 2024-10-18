@@ -34,4 +34,4 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 hardw
 
 source build/envsetup.sh
 lunch yaap_fajita-ap3a-userdebug
-m bacon
+m yaap
