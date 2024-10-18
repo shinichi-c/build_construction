@@ -1,6 +1,11 @@
 #!/bin/bash
 
 rm -rf packages/apps/Calendar
+rm -rf proprietary/product/app/Photos/Photos.apk
+rm -rf proprietary/product/app/PrebuiltGmail/PrebuiltGmail.apk
+rm -rf proprietary/product/priv-app/PrebuiltBugle/PrebuiltBugle.apk
+rm -rf proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk
+
 
 repo init -u https://github.com/yaap/manifest.git -b fifteen --git-lfs
 # Sync the repositories
