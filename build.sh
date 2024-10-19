@@ -27,9 +27,9 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/shinichi-c/media --depth=1 hardware/qcom-caf/sdm845/media
 git clone https://github.com/shinichi-c/audio --depth=1 hardware/qcom-caf/sdm845/audio
 git clone https://github.com/shinichi-c/display --depth=1 hardware/qcom-caf/sdm845/display
-git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 vendor/lindroid
-git clone https://github.com/Linux-on-droid/libhybris --depth=1 external/libhybris
-git clone https://github.com/Linux-on-droid/external_lxc --depth=1 external/lxc
+git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-21 vendor/lindroid
+git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
+git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita --depth=1 -b lineage-21 device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common --depth=1 -b pxl_os device/oneplus/sdm845-common
 git clone https://github.com/shinichi-c/frameworks_native_pxl --depth=1 -b fourteen frameworks/native
