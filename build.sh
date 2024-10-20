@@ -15,8 +15,10 @@ git clone https://github.com/LineageOS/android_device_oneplus_sdm845-common --de
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-21 vendor/oneplus/fajita
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_sdm845-common --depth=1 -b lineage-21 vendor/oneplus/sdm845-common
 
+git clone https://github.com/LineageOS/android_kernel_oneplus_sdm845 --depth=1 -b lineage-21 kernel/oneplus/sdm845
+
 # Clone repositories
-git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
+
 
 
 git clone https://github.com/shinichi-c/device_lineage_sepolicy --depth=1 device/lineage/sepolicy
