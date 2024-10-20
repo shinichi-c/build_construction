@@ -11,5 +11,5 @@ git clone https://github.com/shinichi-c/local_manifests_oplus --depth 1 .repo/lo
 
 # Lunch
 source build/envsetup.sh
-lunch yaap_fajita-ap3a-userdebug
+lunch lineage_fajita-ap3a-userdebug
 m bacon
