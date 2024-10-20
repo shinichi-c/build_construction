@@ -10,7 +10,7 @@ rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 
 git clone https://github.com/LineageOS/android_device_oneplus_fajita --depth=1 -b lineage-21 device/oneplus/fajita
-
+git clone https://github.com/LineageOS/android_device_oneplus_sdm845-common --depth=1 -b pxl_os device/oneplus/sdm845-common
 
 
 # Clone repositories
@@ -26,7 +26,7 @@ git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroi
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common --depth=1 -b pxl_os device/oneplus/sdm845-common
+
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b lineage-21 hardware/oneplus
 
 source build/envsetup.sh
