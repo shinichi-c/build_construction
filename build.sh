@@ -12,5 +12,7 @@ git clone https://github.com/shinichi-c/local_manifests_oplus --depth 1 .repo/lo
 
 # Lunch
 source build/envsetup.sh
+wget https://raw.githubusercontent.com/shinichi-c/los-repo/refs/heads/Test/picks.txt
+chmod +x picks.txt
 lunch lineage_fajita-ap3a-userdebug
 m bacon
