@@ -31,8 +31,6 @@ git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b pixelage hardware/oneplus
 
-curl https://raw.githubusercontent.com/shinichi-c/build_construction/refs/heads/gms2.sh/gms.sh | bash
-
 # Lunch
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
