@@ -14,6 +14,9 @@ rm -rf vendor/oneplus/fajita
 rm -rf vendor/oneplus/sdm845-common
 rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
+rm -rf hardware/qcom-caf/sdm845/media
+rm -rf hardware/qcom-caf/sdm845/audio
+rm -rf hardware/qcom-caf/sdm845/display
 
 # Clone repositories #
 
@@ -30,6 +33,11 @@ git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=
 
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b pixelage hardware/oneplus
+
+# Hals
+git clone https://github.com/shinichi-c/media --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/media
+git clone https://github.com/shinichi-c/audio --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/audio
+git clone https://github.com/shinichi-c/display --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/display
 
 # Lunch
 export PIXELAGE_BUILD="fajita"
