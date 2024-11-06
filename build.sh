@@ -28,7 +28,7 @@ git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.0 vendor/oneplus/fajita
-git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 vendor/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 -b lineage-4.19 vendor/oneplus/sdm845-common
 
 # Kernel
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
