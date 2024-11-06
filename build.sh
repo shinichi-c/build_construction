@@ -18,6 +18,7 @@ rm -rf hardware/qcom-caf/sdm845/media
 rm -rf hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sdm845/display
 rm -rf device/lineage/sepolicy
+rm -rf device/qcom/sepolicy_vndr/legacy-um
 
 # Clone repositories #
 
@@ -42,6 +43,7 @@ git clone https://github.com/shinichi-c/display --depth=1 -b 14.0-4.19 hardware/
 
 # Sepolicy
 git clone https://github.com/shinichi-c/android_device_pixelage_sepolicy --depth=1 device/lineage/sepolicy
+git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.0-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # Lunch
 export PIXELAGE_BUILD="fajita"
