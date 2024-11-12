@@ -39,7 +39,7 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b pi
 # Hals
 git clone https://github.com/shinichi-c/media --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/media
 git clone https://github.com/shinichi-c/audio --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/audio
-git clone https://github.com/shinichi-c/display --depth=1 -b 14.0-4.19 hardware/qcom-caf/sdm845/display
+git clone https://github.com/shinichi-c/display --depth=1 -b Lineage-22 hardware/qcom-caf/sdm845/display
 
 # Sepolicy
 git clone https://github.com/shinichi-c/android_device_pixelage_sepolicy --depth=1 device/lineage/sepolicy
