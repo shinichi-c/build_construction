@@ -49,4 +49,5 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
 lunch pixelage_fajita-ap3a-userdebug
+make installclean
 mka bacon
