@@ -22,6 +22,8 @@ rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
+rm -rf frameworks/native
+rm -rf frameworks/base
 
 # Clone repositories #
 
@@ -52,6 +54,9 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-21 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
+
+# framework
+git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --depth=1 -b fourteen frameworks/native
 
 # Lunch
 export PIXELAGE_BUILD="fajita"
