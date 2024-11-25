@@ -52,7 +52,7 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 
 # lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
-git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-21 vendor/lindroid
+git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-21-luka-1 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 # framework
