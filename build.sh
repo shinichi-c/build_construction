@@ -56,7 +56,7 @@ git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-21
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 # framework
-git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --depth=1 -b 15 frameworks/native
+git clone https://github.com/shinichi-c/frameworks_native_blaze --depth=1 -b 15 frameworks/native
 git clone https://github.com/shinichi-c/platform_frameworks_base_blaze --depth=1 -b 15 frameworks/base
 
 # Lunch
