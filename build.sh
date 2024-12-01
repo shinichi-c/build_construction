@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/ProjectPixelage/android_manifest.git -b 15 --git-lfs
+repo init -u https://github.com/ProjectBlaze/manifest -b 15 --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -28,7 +28,7 @@ rm -rf frameworks/base
 # Clone repositories #
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b pixelage_4.19 device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b blaze device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b upstream-test device/oneplus/sdm845-common
 
 # Vendor
@@ -60,8 +60,6 @@ git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --dep
 git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth=1 -b 15 frameworks/base
 
 # Lunch
-export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
-lunch pixelage_fajita-ap3a-userdebug
-make installclean
-mka bacon
+lunch blaze_fajita-ap3a-userdebug
+make bacon
