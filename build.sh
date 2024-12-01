@@ -57,7 +57,7 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-2
 
 # framework
 git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --depth=1 -b 15 frameworks/native
-git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth=1 -b 15 frameworks/base
+git clone https://github.com/shinichi-c/platform_frameworks_base_blaze --depth=1 -b 15 frameworks/base
 
 # Lunch
 source build/envsetup.sh
