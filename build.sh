@@ -29,7 +29,7 @@ rm -rf frameworks/base
 
 # Device
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b blaze device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b upstream-test device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b blaze device/oneplus/sdm845-common
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.0 vendor/oneplus/fajita
