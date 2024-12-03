@@ -25,6 +25,7 @@ rm -rf external/lxc
 rm -rf frameworks/native
 rm -rf frameworks/base
 rm -rf hardware/qcom-caf/wlan
+rm -rf vendor/blaze
 
 # Clone repositories #
 
@@ -35,6 +36,7 @@ git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.0 vendor/oneplus/fajita
 git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 -b pixelage vendor/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/vendor_blaze --depth=1 -b 15 vendor/blaze
 
 # Kernel
 git clone https://github.com/Terminator-J/crdroid_kernel_oneplus_sdm845 --depth=1 -b 14.0-4.19-test2 kernel/oneplus/sdm845
