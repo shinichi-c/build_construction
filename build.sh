@@ -43,7 +43,7 @@ git clone https://github.com/shinichi-c/audio --depth=1 -b pixelage hardware/qco
 git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/qcom-caf/sdm845/display
 
 # Sepolicy
-git clone https://github.com/shinichi-c/android_device_pixelage_sepolicy --depth=1 device/lineage/sepolicy
+git clone https://github.com/shinichi-c/device_blaze_sepolicy --depth=1 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.0-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # Lunch
