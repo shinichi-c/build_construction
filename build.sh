@@ -45,6 +45,8 @@ git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/q
 git clone https://github.com/shinichi-c/device_blaze_sepolicy --depth=1 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.0-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
+git clone https://github.com/shinichi-c/build_blaze --depth=1 build/make
+
 # Lunch
 source build/envsetup.sh
 lunch blaze_fajita-ap3a-userdebug
