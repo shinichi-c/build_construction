@@ -62,6 +62,6 @@ git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth
 # Lunch
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
-lunch pixelage_fajita-ap3a-userdebug
+lunch pixelage_fajita-ap4a-userdebug
 make installclean
 mka bacon
