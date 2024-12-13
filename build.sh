@@ -23,7 +23,7 @@ rm -rf device/qcom/sepolicy_vndr/legacy-um
 # Clone repositories #
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b pixelage_4.19 device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b pixelage_qpr device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b upstream-test device/oneplus/sdm845-common
 
 # Vendor
