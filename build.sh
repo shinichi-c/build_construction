@@ -27,7 +27,7 @@ git clone https://gitlab.com/kei-space/clang/r522817 prebuilts/clang/host/linux-
 
 # Device
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b pixelage_qpr device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b upstream-test device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b base_QPR1 device/oneplus/sdm845-common
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.0 vendor/oneplus/fajita
