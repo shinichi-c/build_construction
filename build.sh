@@ -55,4 +55,5 @@ git clone https://github.com/shinichi-c/android_hardware_lineage_interfaces --de
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
 lunch pixelage_fajita-ap4a-userdebug
+make installclean
 mka bacon
