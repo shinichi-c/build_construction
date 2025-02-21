@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/ProjectPixelage/android_manifest.git -b 15 --git-lfs
+repo init -u https://github.com/AxionAOSP/android.git -b lineage-22.1 --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
