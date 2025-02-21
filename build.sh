@@ -62,7 +62,6 @@ git clone https://github.com/shinichi-c/android_frameworks_native_axion --depth=
 git clone https://github.com/shinichi-c/android_frameworks_base_axion --depth=1 -b lineage-22.1 frameworks/base
 
 # Lunch
-export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
 lunch axion_fajita-ap4a-userdebug
 make installclean
