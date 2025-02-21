@@ -50,7 +50,7 @@ git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/q
 
 # Sepolicy
 git clone https://github.com/shinichi-c/android_device_lineage_sepolicy_axion --depth=1 device/lineage/sepolicy
-git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.0-legacy-um device/qcom/sepolicy_vndr/legacy-um
+git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.1-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
