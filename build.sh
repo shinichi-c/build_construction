@@ -59,7 +59,7 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-2
 
 # framework
 git clone https://github.com/shinichi-c/android_frameworks_native_axion --depth=1 -b lineage-22.1 frameworks/native
-git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth=1 -b 15 frameworks/base
+git clone https://github.com/shinichi-c/android_frameworks_base_axion --depth=1 -b lineage-22.1 frameworks/base
 
 # Lunch
 export PIXELAGE_BUILD="fajita"
