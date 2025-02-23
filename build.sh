@@ -63,6 +63,5 @@ git clone https://github.com/shinichi-c/android_frameworks_base_axion --depth=1 
 
 # Lunch
 source build/envsetup.sh
-gk -s
 lunch lineage_fajita-ap4a-userdebug
 mka bacon
