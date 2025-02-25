@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/AxionAOSP/android.git -b lineage-22.1 --git-lfs
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -30,8 +30,8 @@ rm -rf frameworks/base
 git clone https://gitlab.com/kei-space/clang/r522817 prebuilts/clang/host/linux-x86/
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b axion device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b axion_cleanup device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b Pixelos device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b Pixelos device/oneplus/sdm845-common
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.0 vendor/oneplus/fajita
@@ -63,5 +63,5 @@ git clone https://github.com/shinichi-c/android_frameworks_base_axion --depth=1 
 
 # Lunch
 source build/envsetup.sh
-lunch lineage_fajita-ap4a-userdebug
+lunch aosp_fajita-ap4a-userdebug
 mka bacon
