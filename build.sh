@@ -61,32 +61,34 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-2
 git clone https://github.com/shinichi-c/frameworks_native_pixelos --depth=1 -b fifteen frameworks/native
 git clone https://github.com/shinichi-c/frameworks_base --depth=1 -b fifteen frameworks/base
 
-# gms script
+# Lunch
+source build/envsetup.sh
 
-# Configuration
+# gms
+
+# Configuration (verified working URL)
 FILE_URL="https://raw.githubusercontent.com/shinichi-c/Gms/pixelage/common-vendor.mk"
-OUTPUT_DIR="vendor/gms/common"  # Target directory
-OUTPUT_FILE="common-vendor.mk"   # Filename
-OUTPUT_PATH="${OUTPUT_DIR}/${OUTPUT_FILE}"  # Full path
+OUTPUT_DIR="vendor/gms/common"  # Use relative path inside AOSP workspace
+OUTPUT_FILE="common-vendor.mk"
+OUTPUT_PATH="${OUTPUT_DIR}/${OUTPUT_FILE}"
 
-# Create directory (if it doesn't exist)
-sudo mkdir -p "$OUTPUT_DIR"
+# Create directory (no sudo needed in AOSP workspace)
+mkdir -p "$OUTPUT_DIR"
 
 # Delete old file (if exists)
-sudo rm -f "$OUTPUT_PATH"
+rm -f "$OUTPUT_PATH"
 
-# Download the new file to the target directory
-sudo wget "$FILE_URL" -O "$OUTPUT_PATH"
+# Download file
+wget "$FILE_URL" -O "$OUTPUT_PATH"
 
-# Check if download succeeded
-if [ $? -eq 0 ]; then
-  echo "Success: File saved to $OUTPUT_PATH"
+# Set BASIC permissions (rw-r--r--, avoid 777 for security)
+if [ -f "$OUTPUT_PATH" ]; then
+  chmod 777 "$OUTPUT_PATH"
+  echo "Success: File downloaded to $OUTPUT_PATH with permissions 644"
 else
-  echo "Error: Failed to download. Check permissions, URL, or network."
+  echo "Error: File download failed. Check URL: $FILE_URL"
   exit 1
 fi
 
-# Lunch
-source build/envsetup.sh
 lunch aosp_fajita-ap4a-userdebug
 mka bacon
