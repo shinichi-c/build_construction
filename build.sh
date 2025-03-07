@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b vic --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -90,5 +90,5 @@ else
   exit 1
 fi
 
-lunch aosp_fajita-ap4a-userdebug
+lunch lineage_fajita-ap4a-userdebug
 mka bacon
