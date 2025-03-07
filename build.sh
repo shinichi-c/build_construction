@@ -59,7 +59,7 @@ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-2
 
 # framework
 git clone https://github.com/shinichi-c/frameworks_native_pixelos --depth=1 -b fifteen frameworks/native
-git clone https://github.com/shinichi-c/frameworks_base --depth=1 -b fifteen frameworks/base
+git clone https://github.com/shinichi-c/frameworks_base_evo --depth=1 -b vic frameworks/base
 
 # Lunch
 source build/envsetup.sh
