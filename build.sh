@@ -64,4 +64,4 @@ git clone https://github.com/shinichi-c/frameworks_base_evo --depth=1 -b vic fra
 # Lunch
 source build/envsetup.sh
 lunch lineage_fajita-ap4a-userdebug
-mka bacon
+m evolution
