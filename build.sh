@@ -25,7 +25,7 @@ rm -rf device/qcom/sepolicy_vndr/legacy-um
 git clone https://gitlab.com/kei-space/clang/r522817 prebuilts/clang/host/linux-x86/
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b lineage-22.1 device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b lineage-22.2 device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_15 --depth=1 -b pixelage_Qpr2 device/oneplus/sdm845-common
 
 # Vendor
