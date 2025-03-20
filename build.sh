@@ -50,5 +50,6 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 # Lunch
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
-lunch pixelage_fajita-bp1a-eng
+lunch pixelage_fajita-bp1a-userdebug
+make installclean
 mka bacon
