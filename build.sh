@@ -47,6 +47,15 @@ git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/q
 git clone https://github.com/shinichi-c/android_device_pixelage_sepolicy --depth=1 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-22.0-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
+# lindroid
+ git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
+ git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-22.1 vendor/lindroid
+ git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
+ 
+ # framework
+ git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --depth=1 -b 15-Qpr2 frameworks/native
+ git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth=1 -b 15-Qpr2 frameworks/base
+
 # Lunch
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
