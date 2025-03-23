@@ -21,6 +21,9 @@ rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf frameworks/native
 rm -rf frameworks/base
+rm -rf external/libhybris
+rm -rf vendor/lindroid
+rm -rf external/lxc
 
 # Clone repositories #
 # Clang
