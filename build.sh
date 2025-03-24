@@ -57,7 +57,7 @@ git clone https://github.com/shinichi-c/android_frameworks_native_pixelage --dep
 git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth=1 -b 15-Qpr2 frameworks/base
 
 # lindroid
-git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-21 external/libhybris
+git clone https://github.com/shinichi-c/libhybris --depth=1 -b lindroid-21 external/libhybris
 git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-22.1 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
