@@ -58,7 +58,7 @@ git clone https://github.com/shinichi-c/android_frameworks_base_pixelage --depth
 
 # lindroid
 git clone https://github.com/shinichi-c/libhybris --depth=1 -b lindroid-21 external/libhybris
-git clone https://github.com/Linux-on-droid/vendor_lindroid --depth=1 -b lindroid-22.1 vendor/lindroid
+git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-22.1 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 # Lunch
