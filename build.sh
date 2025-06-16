@@ -21,7 +21,7 @@ rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/bootctrl
 rm -rf vendor/qcom/opensource/dataservices
-rm -rf vendor/lineage
+rm -rf build/make
 
 # Clone repositories #
 # Clang
@@ -53,11 +53,11 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 # bootctrl
 git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1 -b lineage-22.2-caf hardware/qcom-caf/bootctrl
 
-# dataservices
+# dataservice
 git clone https://github.com/shinichi-c/android_vendor_qcom_opensource_dataservices --depth=1 -b lineage-22.2 vendor/qcom/opensource/dataservices
 
-# vendor/lineage
-git clone https://github.com/shinichi-c/android_vendor_lineage --depth=1 -b lineage-22.2 vendor/lineage
+# build/make
+git clone https://github.com/shinichi-c/build_evo --depth=1 -b bka build/make
 
 #lunch
 export PIXELAGE_BUILD="fajita"
