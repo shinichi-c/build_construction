@@ -134,4 +134,4 @@ fi
 echo "Script completed."
 
 lunch lineage_fajita-bp2a-userdebug
-mka bacon
+m evolution
