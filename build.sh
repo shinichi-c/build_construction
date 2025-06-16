@@ -57,5 +57,72 @@ git clone https://github.com/shinichi-c/android_vendor_qcom_opensource_dataservi
 #lunch
 export PIXELAGE_BUILD="fajita"
 source build/envsetup.sh
+
+#!/bin/bash
+
+# Define the target directory and file name
+TARGET_DIR="hardware/google/pixel/kernel_headers"
+FILE_NAME="Android.bp"
+FULL_PATH="${TARGET_DIR}/${FILE_NAME}"
+
+# Define the raw GitHub URL of your new Android.bp file
+# IMPORTANT: REPLACE THIS WITH THE ACTUAL RAW GITHUB URL OF YOUR FILE
+# Example: https://raw.githubusercontent.com/your-username/your-repo/your-branch/path/to/Android.bp
+GITHUB_RAW_URL="https://raw.githubusercontent.com/shinichi-c/android_device_oneplus_fajita_15/refs/heads/lineage-22.1/Android.bp" 
+
+# Check if the GITHUB_RAW_URL has been updated
+if [ "$GITHUB_RAW_URL" = "YOUR_RAW_GITHUB_URL_HERE" ]; then
+    echo "Error: Please update the 'GITHUB_RAW_URL' variable in the script with the actual raw GitHub URL of your Android.bp file."
+    exit 1
+fi
+
+# Create the target directory if it doesn't exist
+echo "Ensuring target directory exists: $TARGET_DIR..."
+mkdir -p "$TARGET_DIR"
+if [ $? -ne 0 ]; then
+    echo "Error: Could not create or access directory $TARGET_DIR. Check permissions."
+    exit 1
+fi
+
+# Navigate to the target directory
+echo "Navigating to $TARGET_DIR..."
+cd "$TARGET_DIR" || { echo "Error: Could not change directory to $TARGET_DIR"; exit 1; }
+
+# Delete the existing file if it exists
+echo "Attempting to delete existing $FILE_NAME..."
+if [ -f "$FILE_NAME" ]; then
+    rm -f "$FILE_NAME"
+    if [ $? -eq 0 ]; then
+        echo "Existing $FILE_NAME deleted successfully."
+    else
+        echo "Error: Could not delete existing $FILE_NAME. Check permissions."
+        exit 1
+    fi
+else
+    echo "No existing $FILE_NAME found to delete."
+fi
+
+# Download the new file from GitHub
+echo "Downloading new $FILE_NAME from $GITHUB_RAW_URL..."
+curl -sL "$GITHUB_RAW_URL" -o "$FILE_NAME"
+if [ $? -eq 0 ]; then
+    echo "New $FILE_NAME downloaded successfully."
+else
+    echo "Error: Could not download new $FILE_NAME from GitHub. Check URL or network connection."
+    exit 1
+fi
+
+# Set full permissions (777) for the new file
+echo "Setting full permissions (777) for $FILE_NAME..."
+chmod 777 "$FILE_NAME"
+if [ $? -eq 0 ]; then
+    echo "Permissions set successfully."
+else
+    echo "Error: Could not set permissions for $FILE_NAME."
+    exit 1
+fi
+
+echo "Script completed."
+
 lunch lineage_fajita-bp2a-userdebug
 mka bacon
