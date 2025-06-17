@@ -44,7 +44,7 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b pi
 
 # Hals
 git clone https://github.com/shinichi-c/media --depth=1 -b upstream hardware/qcom-caf/sdm845/media
-git clone https://github.com/shinichi-c/audio --depth=1 -b pixelage hardware/qcom-caf/sdm845/audio
+git clone https://github.com/shinichi-c/audio --depth=1 -b update hardware/qcom-caf/sdm845/audio
 git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/qcom-caf/sdm845/display
 
 # Sepolicy
