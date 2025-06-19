@@ -20,7 +20,6 @@ rm -rf hardware/qcom-caf/sdm845/display
 rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/bootctrl
-rm -rf vendor/qcom/opensource/dataservices
 rm -rf build/make
 rm -rf vendor/lineage
 
@@ -53,9 +52,6 @@ git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr_evo --depth=1 
 
 # bootctrl
 git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1 -b lineage-22.2-caf hardware/qcom-caf/bootctrl
-
-# dataservice
-git clone https://github.com/shinichi-c/android_vendor_qcom_opensource_dataservices --depth=1 -b lineage-22.2 vendor/qcom/opensource/dataservices
 
 # build/make
 git clone https://github.com/shinichi-c/build_evo --depth=1 -b bka build/make
