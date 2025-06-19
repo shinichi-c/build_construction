@@ -130,4 +130,5 @@ fi
 echo "Script completed."
 
 lunch lineage_fajita-bp2a-userdebug
+make installclean
 m evolution
