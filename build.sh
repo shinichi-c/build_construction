@@ -47,7 +47,7 @@ git clone https://github.com/shinichi-c/audio --depth=1 -b update hardware/qcom-
 git clone https://github.com/shinichi-c/display --depth=1 -b upstream hardware/qcom-caf/sdm845/display
 
 # Sepolicy
-git clone https://github.com/shinichi-c/device_evolution_sepolicy --depth=1 device/lineage/sepolicy
+git clone https://github.com/shinichi-c/device_evolution_sepolicy --depth=1 -b bka2 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr_evo --depth=1 -b bka-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # bootctrl
