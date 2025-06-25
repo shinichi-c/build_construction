@@ -20,7 +20,7 @@ rm -rf hardware/qcom-caf/sdm845/display
 rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/bootctrl
-rm -rf build/make
+#rm -rf build/make
 rm -rf vendor/lineage
 
 # Clone repositories #
