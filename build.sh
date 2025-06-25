@@ -54,7 +54,7 @@ git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr_evo --depth=1 
 git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1 -b lineage-22.2-caf hardware/qcom-caf/bootctrl
 
 # build/make
-git clone https://github.com/shinichi-c/build_evo --depth=1 -b bka build/make
+##git clone https://github.com/shinichi-c/build_evo --depth=1 -b bka build/make
 
 # vendor/lineage
 git clone https://github.com/shinichi-c/vendor_evolution --depth=1 -b bka vendor/lineage
