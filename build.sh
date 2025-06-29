@@ -39,7 +39,7 @@ git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common
 git clone https://github.com/shinichi-c/android_kernel_qcom_sdm845 --depth=1 -b next2-bpf_5.4 kernel/oneplus/sdm845
 
 # Hardware
-git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b aidl hardware/oneplus
+git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b new hardware/oneplus
 
 # Hals
 git clone https://github.com/shinichi-c/media --depth=1 -b upstream hardware/qcom-caf/sdm845/media
