@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf prebuilts/clang/host/linux-x86
+
 # Repo Init
 repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
@@ -25,7 +27,7 @@ rm -rf hardware/qcom-caf/bootctrl
 
 # Clone repositories #
 # Clang
-git clone https://gitlab.com/kei-space/clang/r522817 prebuilts/clang/host/linux-x86/
+##git clone https://gitlab.com/kei-space/clang/r522817 prebuilts/clang/host/linux-x86/
 
 # Device
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita_15 --depth=1 -b Evo_16 device/oneplus/fajita
@@ -62,5 +64,4 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1
 #lunch
 source build/envsetup.sh
 lunch lineage_fajita-bp2a-userdebug
-make installclean
 m evolution
