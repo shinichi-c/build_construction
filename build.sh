@@ -61,6 +61,10 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1
 # vendor/lineage
 ##git clone https://github.com/shinichi-c/vendor_evolution --depth=1 -b bka vendor/lineage
 
+# framework
+git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bka frameworks/native
+git clone https://github.com/shinichi-c/frameworks_base_evo --depth=1 -b bka frameworks/base
+
 #lunch
 source build/envsetup.sh
 lunch lineage_fajita-bp2a-userdebug
