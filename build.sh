@@ -18,6 +18,7 @@ rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sm8250/media
 rm -rf hardware/qcom-caf/sdm845/audio
+rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8250/display
 rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
@@ -48,6 +49,7 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b li
 # Hals
 git clone https://github.com/shinichi-c/android_hardware_qcom_media --depth=1 -b lineage-23.0-caf-sm8150 hardware/qcom-caf/sm8250/media
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sdm845/audio
+git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
 git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sm8250/display
 
 # Sepolicy
