@@ -60,7 +60,7 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1 -b lineage-22.2-caf hardware/qcom-caf/bootctrl
 
 # qcom-caf_common
-git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b lineage-23 hardware/qcom-caf/common
+git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b lineage-23.0 hardware/qcom-caf/common
 
 # framework
 git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bka frameworks/native
