@@ -39,6 +39,7 @@ git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.2 vendor/oneplus/fajita
 git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 -b lineage-opcam vendor/oneplus/sdm845-common
+git clone https://gitlab.com/Terminator-J/proprietary_vendor_oneplus_camera --depth=1 -b 15.0-op6-test vendor/oneplus/camera
 
 # Kernel
 git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b lineage-23.0-4.19 kernel/oneplus/sdm845
