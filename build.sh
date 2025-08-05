@@ -51,6 +51,12 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_media --depth=1 -b
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sdm845-next/audio
 git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sdm845-next/display
 
+# Hals2
+git clone https://github.com/shinichi-c/android_hardware_qcom_media --depth=1 -b lineage-23.0-caf-sm8150 hardware/qcom-caf/sm8250/media
+git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sdm845/audio
+git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sm8250/audio
+git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b lineage-23.0-caf-sm8250 hardware/qcom-caf/sm8250/display
+
 # Sepolicy
 git clone https://github.com/shinichi-c/android_device_lineage_sepolicy --depth=1 -b evox-16 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b evox-16 device/qcom/sepolicy_vndr/legacy-um
