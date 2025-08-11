@@ -19,6 +19,7 @@ rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sdm845/audio
 rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8250/display
+rm -rf hardware/qcom-caf/sdm845-next
 rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/bootctrl
