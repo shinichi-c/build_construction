@@ -51,7 +51,7 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b
 git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b markv1 hardware/qcom-caf/sm8250/display
 
 # Sepolicy
-git clone https://github.com/shinichi-c/android_device_lineage_sepolicy --depth=1 -b evox-16 device/lineage/sepolicy
+git clone https://github.com/shinichi-c/device_lineage_sepolicy_L --depth=1 -b 16 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr --depth=1 -b bka-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # bootctrl
