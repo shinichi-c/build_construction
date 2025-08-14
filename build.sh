@@ -27,6 +27,7 @@ rm -rf external/lxc
 rm -rf frameworks/native
 rm -rf frameworks/base
 rm -rf vendor/oneplus/camera
+rm -rf frameworks/av
 
 # Clone repositories #
 
@@ -43,7 +44,7 @@ git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_camera.git --
 git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b sdm845-next kernel/oneplus/sdm845
 
 # Hardware
-git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b lineage-23.0-opcam hardware/oneplus
+git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b lineage-23.0-opcam2 hardware/oneplus
 
 # Hals
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sdm845/audio
@@ -63,6 +64,7 @@ git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth
 # framework
 git clone https://github.com/shinichi-c/frameworks_native-L --depth=1 -b 16 frameworks/native
 git clone https://github.com/shinichi-c/frameworks_base-L --depth=1 -b 16 frameworks/base
+git clone https://github.com/shinichi-c/frameworks_av-l --depth=1 -b 16 frameworks/av
 
 # lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
