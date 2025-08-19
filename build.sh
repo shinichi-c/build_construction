@@ -62,7 +62,7 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv1 hardware/qcom-caf/common
 
 # framework
-git clone https://github.com/shinichi-c/frameworks_native-L --depth=1 -b 16 frameworks/native
+git clone https://github.com/shinichi-c/frameworks_native-L --depth=1 -b 16n frameworks/native
 git clone https://github.com/shinichi-c/frameworks_base-L --depth=1 -b 16 frameworks/base
 git clone https://github.com/shinichi-c/frameworks_av-l --depth=1 -b 16 frameworks/av
 
