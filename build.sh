@@ -23,6 +23,7 @@ rm -rf hardware/qcom-caf/common
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
+rm -rf hardware/lineage/livedisplay
 
 # Clone repositories #
 
