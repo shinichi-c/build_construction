@@ -23,6 +23,7 @@ rm -rf hardware/qcom-caf/common
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
+rm -rf hardware/lineage/interfaces
 
 # Clone repositories #
 
@@ -39,7 +40,7 @@ git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 
 
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b lineage-23.0 hardware/oneplus
-
+git clone https://github.com/LineageOS/android_hardware_lineage_interfaces --depth=1 -b lineage-23.0 hardware/lineage/interfaces
 # Hals
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sdm845/audio
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sm8250/audio
