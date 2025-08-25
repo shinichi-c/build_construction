@@ -27,6 +27,7 @@ rm -rf hardware/lineage/interfaces
 rm -rf hardware/interfaces
 rm -rf packages/apps/Settings
 rm -rf packages/apps/GameSpace
+rm -rf hardware/lineage/livedisplay
 
 # Clone repositories #
 
