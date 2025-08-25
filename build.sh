@@ -25,6 +25,7 @@ rm -rf vendor/lindroid
 rm -rf external/lxc
 rm -rf hardware/lineage/interfaces
 rm -rf hardware/interfaces
+rm -rf packages/apps/Settings
 
 # Clone repositories #
 
@@ -56,6 +57,9 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 # qcom-caf_common
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv1 hardware/qcom-caf/common
 
+# settings
+git clone https://github.com/shinichi-c/android_packages_apps_Settings --depth=1 -b 16 packages/apps/Settings
+ 
 #lunch
 source build/envsetup.sh
 . build/envsetup.sh
