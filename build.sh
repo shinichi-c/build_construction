@@ -26,6 +26,7 @@ rm -rf external/lxc
 rm -rf hardware/lineage/interfaces
 rm -rf hardware/interfaces
 rm -rf packages/apps/Settings
+rm -rf packages/apps/GameSpace
 
 # Clone repositories #
 
@@ -59,7 +60,8 @@ git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth
 
 # settings
 git clone https://github.com/shinichi-c/android_packages_apps_Settings --depth=1 -b 16 packages/apps/Settings
- 
+git clone https://github.com/selfmusing/android_packages_apps_GameSpace --depth=1 -b 16 packages/apps/GameSpace
+
 #lunch
 source build/envsetup.sh
 . build/envsetup.sh
