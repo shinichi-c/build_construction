@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/Lunaris-AOSP/android -b 16 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bka --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -19,21 +19,18 @@ rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8250/display
 rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
-rm -rf hardware/qcom-caf/bootctrl
 rm -rf hardware/qcom-caf/common
 rm -rf external/libhybris
 rm -rf vendor/lindroid
 rm -rf external/lxc
 rm -rf frameworks/native
 rm -rf frameworks/base
-rm -rf vendor/oneplus/camera
-rm -rf frameworks/av
 
 # Clone repositories #
 
 # Device
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b c2-markv2-L device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b c2-markv4-L device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b c2-markv7_E device/oneplus/sdm845-common
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.2 vendor/oneplus/fajita
@@ -54,16 +51,12 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 
 git clone https://github.com/shinichi-c/device_lineage_sepolicy_L --depth=1 -b 16 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr --depth=1 -b bka-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
-# bootctrl
-git clone https://github.com/shinichi-c/android_hardware_qcom_bootctrl --depth=1 -b lineage-22.2-caf hardware/qcom-caf/bootctrl
-
 # qcom-caf_common
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv1 hardware/qcom-caf/common
 
 # framework
 git clone https://github.com/shinichi-c/frameworks_native-L --depth=1 -b 16n frameworks/native
 git clone https://github.com/shinichi-c/frameworks_base-L --depth=1 -b 16 frameworks/base
-git clone https://github.com/shinichi-c/frameworks_av-l --depth=1 -b 16 frameworks/av
 
 # lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
@@ -71,8 +64,7 @@ git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-22
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 #lunch
-source build/envsetup.sh
-. b*/env*
+. build/envsetup.sh
 lunch lineage_fajita-bp2a-userdebug
 make installclean
-m lunaris
+m evolution
