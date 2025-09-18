@@ -60,7 +60,7 @@ git clone https://github.com/shinichi-c/frameworks_base_evo --depth=1 -b bka2 fr
 
 # lindroid
 git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
-git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-22.1 vendor/lindroid
+git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.0 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 #lunch
