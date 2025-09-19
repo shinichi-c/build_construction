@@ -12,6 +12,7 @@ rm -rf device/oneplus/fajita
 rm -rf device/oneplus/sdm845-common
 rm -rf vendor/oneplus/fajita
 rm -rf vendor/oneplus/sdm845-common
+rm -rf vendor/oneplus/camera
 rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sdm845/audio
@@ -30,17 +31,18 @@ rm -rf frameworks/base
 
 # Device
 git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b Evo_16 device/oneplus/fajita
-git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b c2-markv7_E device/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b OCam-markv8_E device/oneplus/sdm845-common
 
 # Vendor
 git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --depth=1 -b lineage-22.2 vendor/oneplus/fajita
-git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 -b c2-markv4 vendor/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common --depth=1 -b OCam-markv5 vendor/oneplus/sdm845-common
+git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_camera.git --depth=1 vendor/oneplus/camera
 
 # Kernel
 git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b sdm845-next kernel/oneplus/sdm845
 
 # Hardware
-git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b markv_E hardware/oneplus
+git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b OCam-markv2_E hardware/oneplus
 
 # Hals
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sdm845/audio
