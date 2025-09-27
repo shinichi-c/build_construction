@@ -52,7 +52,7 @@ git clone https://github.com/shinichi-c/android_device_lineage_sepolicy --depth=
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b evox-16 device/qcom/sepolicy_vndr/legacy-um
 
 # qcom-caf_common
-git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv1 hardware/qcom-caf/common
+git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv2 hardware/qcom-caf/common
 
 # framework
 git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bka2 frameworks/native
