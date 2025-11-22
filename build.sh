@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/Evolution-X/manifest -b bka-q1 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b bq1 --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
