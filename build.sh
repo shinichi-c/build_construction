@@ -34,7 +34,7 @@ git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_sdm845-common
 git clone https://github.com/shinichi-c/proprietary_vendor_oneplus_camera.git --depth=1 vendor/oneplus/camera
 
 # Kernel
-git clone https://github.com/shinichi-c/android_kernel_qcom_sdm845 --depth=1 -b markv5 kernel/oneplus/sdm845
+git clone https://github.com/EdwinMoq/android_kernel_oneplus_sdm845 --depth=1 -b lineage-23.1-4.19 kernel/oneplus/sdm845
 
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Qpr1-markv4_E hardware/oneplus
