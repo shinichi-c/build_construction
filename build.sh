@@ -48,7 +48,7 @@ git clone https://github.com/shinichi-c/android_device_lineage_sepolicy --depth=
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b evox-16 device/qcom/sepolicy_vndr/legacy-um
 
 # qcom-caf_common
-git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv5 hardware/qcom-caf/common
+git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv6 hardware/qcom-caf/common
 
 #lunch
 . build/envsetup.sh
