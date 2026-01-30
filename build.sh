@@ -40,8 +40,8 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Qp
 
 # Hals
 git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sdm845/audio
-git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markv1 hardware/qcom-caf/sm8250/audio
-git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b markv1 hardware/qcom-caf/sm8250/display
+git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b markE1 hardware/qcom-caf/sm8250/audio
+git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b markE1 hardware/qcom-caf/sm8250/display
 
 # Sepolicy
 git clone https://github.com/shinichi-c/device_evolution_sepolicy.git --depth=1 -b bq2 device/lineage/sepolicy
