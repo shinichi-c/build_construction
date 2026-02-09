@@ -30,7 +30,7 @@ rm -rf frameworks/base
 # Clone repositories #
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b Evo_16 device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b Qpr2-mark device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b Qpr2-markv18_E device/oneplus/sdm845-common
 
 # Vendor
@@ -56,13 +56,13 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv6 hardware/qcom-caf/common
 
 # framework
-git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bq2 frameworks/native
+git clone https://github.com/Evolution-X/frameworks_native --depth=1 -b bq2 frameworks/native
 git clone https://github.com/Evolution-X/frameworks_base --depth=1 -b bq2 frameworks/base
 
 # lindroid
-git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
-git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
-git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
+# git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
+# git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
+# git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 #lunch
 . build/envsetup.sh
