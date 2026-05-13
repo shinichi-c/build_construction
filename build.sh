@@ -28,7 +28,7 @@ rm -rf frameworks/base
 # Clone repositories #
 
 # Device
-git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b Qpr2-mark2 device/oneplus/fajita
+git clone https://github.com/shinichi-c/android_device_oneplus_fajita_16 --depth=1 -b markv21NE device/oneplus/fajita
 git clone https://github.com/shinichi-c/android_device_oneplus_sdm845-common_16 --depth=1 -b markv21NE device/oneplus/sdm845-common
 
 # Vendor
