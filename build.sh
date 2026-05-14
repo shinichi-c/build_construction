@@ -36,7 +36,7 @@ git clone https://github.com/TheMuppets/proprietary_vendor_oneplus_fajita --dept
 git clone https://github.com/EdwinMoq/proprietary_vendor_oneplus_sdm845-common --depth=1 -b lineage-23.2-4.19 vendor/oneplus/sdm845-common
 
 # Kernel
-git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b markv8 kernel/oneplus/sdm845
+git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b markv10 kernel/oneplus/sdm845
 
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b markv6E hardware/oneplus
