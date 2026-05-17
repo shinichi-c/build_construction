@@ -16,7 +16,6 @@ rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8250/display
-# rm -rf device/lineage/sepolicy
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/common
 rm -rf external/libhybris
@@ -46,7 +45,6 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b
 git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b markE2 hardware/qcom-caf/sm8250/display
 
 # Sepolicy
-# git clone https://github.com/shinichi-c/device_evolution_sepolicy.git --depth=1 -b bq2 device/lineage/sepolicy
 git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-23.2-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # qcom-caf_common
@@ -57,9 +55,9 @@ git clone https://github.com/Evolution-X/frameworks_native --depth=1 -b bq2 fram
 git clone https://github.com/Evolution-X/frameworks_base --depth=1 -b bq2 frameworks/base
 
 # lindroid
-# git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
-# git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
-# git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
+git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
+git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
+git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 #lunch
 . build/envsetup.sh
