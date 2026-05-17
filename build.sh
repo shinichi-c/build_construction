@@ -55,7 +55,7 @@ git clone https://github.com/Evolution-X/frameworks_native --depth=1 -b bq2 fram
 git clone https://github.com/Evolution-X/frameworks_base --depth=1 -b bq2 frameworks/base
 
 # lindroid
-git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b tmp external/libhybris
+git clone https://github.com/Linux-on-droid/libhybris --depth=1 -b lindroid-drm external/libhybris
 git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
 git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
