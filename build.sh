@@ -51,7 +51,7 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv6 hardware/qcom-caf/common
 
 # framework
-git clone https://github.com/Evolution-X/frameworks_native --depth=1 -b bq2 frameworks/native
+git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bq2 frameworks/native
 git clone https://github.com/Evolution-X/frameworks_base --depth=1 -b bq2 frameworks/base
 
 # lindroid
