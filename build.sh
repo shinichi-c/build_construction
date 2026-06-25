@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/Evolution-X/manifest -b bq2 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b cnb --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -18,11 +18,11 @@ rm -rf hardware/qcom-caf/sm8250/audio
 rm -rf hardware/qcom-caf/sm8250/display
 rm -rf device/qcom/sepolicy_vndr/legacy-um
 rm -rf hardware/qcom-caf/common
-rm -rf external/libhybris
-rm -rf vendor/lindroid
-rm -rf external/lxc
-rm -rf frameworks/native
-rm -rf frameworks/base
+# rm -rf external/libhybris
+# rm -rf vendor/lindroid
+# rm -rf external/lxc
+# rm -rf frameworks/native
+# rm -rf frameworks/base
 
 # Clone repositories #
 
@@ -51,13 +51,13 @@ git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --dept
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv6 hardware/qcom-caf/common
 
 # framework
-git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bq2 frameworks/native
-git clone https://github.com/shinichi-c/frameworks_base_evoX --depth=1 -b bq3 frameworks/base
+# git clone https://github.com/shinichi-c/frameworks_native_evo16 --depth=1 -b bq2 frameworks/native
+# git clone https://github.com/shinichi-c/frameworks_base_evoX --depth=1 -b bq3 frameworks/base
 
 # lindroid
-git clone https://github.com/shinichi-c/libhybris --depth=1 -b lindroid-drm external/libhybris
-git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
-git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
+# git clone https://github.com/shinichi-c/libhybris --depth=1 -b lindroid-drm external/libhybris
+# git clone https://github.com/shinichi-c/vendor_lindroid --depth=1 -b lindroid-23.2 vendor/lindroid
+# git clone https://github.com/Linux-on-droid/external_lxc --depth=1 -b lindroid-21 external/lxc
 
 #lunch
 . build/envsetup.sh
