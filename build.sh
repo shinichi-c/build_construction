@@ -61,6 +61,6 @@ git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth
 
 #lunch
 . build/envsetup.sh
-lunch lineage_fajita-bp4a-userdebug
+lunch lineage_fajita-cp2a-userdebug
 make installclean
 m evolution
