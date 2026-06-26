@@ -45,7 +45,7 @@ git clone https://github.com/shinichi-c/android_hardware_qcom_audio --depth=1 -b
 git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b markE2 hardware/qcom-caf/sm8250/display
 
 # Sepolicy
-git clone https://github.com/shinichi-c/android_device_qcom_sepolicy_vndr --depth=1 -b lineage-23.2-legacy-um device/qcom/sepolicy_vndr/legacy-um
+git clone https://github.com/shinichi-c/device_qcom_sepolicy_vndr --depth=1 -b cnb-legacy-um device/qcom/sepolicy_vndr/legacy-um
 
 # qcom-caf_common
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b markv6 hardware/qcom-caf/common
