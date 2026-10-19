@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Repo Init
-repo init -u https://github.com/Evolution-X/manifest -b bq2 --git-lfs
+repo init -u https://github.com/Evolution-X/manifest -b cnb --git-lfs
 
 # Sync the repositories
 /opt/crave/resync.sh
@@ -34,6 +34,6 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b ma
 
 #lunch
 . build/envsetup.sh
-lunch lineage_fajita-bp4a-userdebug
+lunch lineage_fajita-cp2a-userdebug
 make installclean
 m evolution
