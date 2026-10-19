@@ -14,6 +14,7 @@ rm -rf vendor/oneplus/fajita
 rm -rf vendor/oneplus/sdm845-common
 rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
+rm -rf hardware/qcom-caf/common
 
 # Clone repositories #
 
@@ -31,6 +32,8 @@ git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 
 # Hardware
 git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Evo12 hardware/oneplus
 
+# qcom-caf_common
+git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b Evo12 hardware/qcom-caf/common
 
 #lunch
 . build/envsetup.sh
