@@ -15,6 +15,7 @@ rm -rf vendor/oneplus/sdm845-common
 rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 rm -rf hardware/qcom-caf/common
+rm -rf hardware/qcom-caf/sm8250/display
 
 # Clone repositories #
 
@@ -34,6 +35,9 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Ev
 
 # qcom-caf_common
 git clone https://github.com/shinichi-c/android_hardware_qcom-caf_common --depth=1 -b Evo12 hardware/qcom-caf/common
+
+# hals
+git clone https://github.com/shinichi-c/android_hardware_qcom_display --depth=1 -b Evo12 hardware/qcom-caf/sm8250/display
 
 #lunch
 . build/envsetup.sh
