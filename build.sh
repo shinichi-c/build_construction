@@ -29,7 +29,7 @@ git clone https://github.com/EdwinMoq/proprietary_vendor_oneplus_sdm845-common -
 git clone https://github.com/shinichi-c/android_kernel_oneplus_sdm845 --depth=1 -b markv10 kernel/oneplus/sdm845
 
 # Hardware
-git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b markv6E hardware/oneplus
+git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Evo12 hardware/oneplus
 
 
 #lunch
