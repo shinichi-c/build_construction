@@ -15,6 +15,7 @@ rm -rf vendor/oneplus/sdm845-common
 rm -rf kernel/oneplus/sdm845
 rm -rf hardware/oneplus
 rm -rf build/soong
+rm -rf vendor/lineage
 
 # Clone repositories #
 
@@ -34,6 +35,9 @@ git clone https://github.com/shinichi-c/android_hardware_oneplus --depth=1 -b Ev
 
 # soong
 git clone https://github.com/shinichi-c/build_soong --depth=1 -b cnb build/soong
+
+# vendor
+git clone https://github.com/shinichi-c/vendor_evolution --depth=1 -b Evo12 vendor/lineage
 
 #lunch
 . build/envsetup.sh
